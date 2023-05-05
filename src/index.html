@@ -300,8 +300,8 @@
       }
     },
     line_linked: {
-      enable: false,
-      distance: 150,
+      enable: true,
+      distance: 75,
       color: "#ffffff",
       opacity: 0.4,
       width: 1
@@ -329,7 +329,7 @@
         mode: "repulse"
       },
       onclick: {
-        enable: true,
+        enable: false,
         mode: "repulse"
       },
       resize: true
@@ -374,6 +374,10 @@
 <body>
   <app-root></app-root>
   <div id="particle"></div>
+  <div class="navbar">
+    <a href="https://github.com/AceSilentKill/PC7-Client/raw/main/docs/PC7%20-%20Terms%20Of%20Service.pdf" style="float:left;">Terms of Service</a>
+    <a href="https://github.com/AceSilentKill/PC7-Client/raw/main/docs/PC7%20-%20Privacy%20Policy.pdf" style="float:right;">Privacy Policy</a>
+  </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.js"></script>
 </body>
 
