@@ -1,9 +1,3 @@
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  force = true
-  status = 200
-  
 [build]
   command="ng build"
   publish="dist/pc7-client"
@@ -16,3 +10,9 @@
 
   [plugins.inputs]
     enable = false
+    
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  force = true
+  status = 200
