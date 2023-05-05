@@ -3,7 +3,7 @@
   publish="dist/angular-quickstart"
 
 [[redirects]]
-  from = "/*"
+  from = "*"
   to = "/index.html"
   force = true
   status = 200
