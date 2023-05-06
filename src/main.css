@@ -1,8 +1,3 @@
-@font-face {
-  font-family: customF;
-  src: url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-}
-
 :root {
   --r1: #781212;
   --r2: #ff0505;
@@ -15,11 +10,14 @@
   --a1: rgba(58, 58, 58, 0.85);
 }
 
+* {
+  font-family: 'Comfortaa', cursive;
+}
+
 body {
   background-color: #000;
   margin: 0px;
   padding: 0px;
-  font-family: customF;
 }
 
 .boxbody {
@@ -43,7 +41,6 @@ a:hover {
   text-shadow: 2px 0 0 var(--r1), -1px 0 0 var(--r1), 0 1px 0 var(--r1),
     0 -1px 0 var(--r1), 0.5px 0.5px var(--r1), -0.5px -0.5px 0 var(--r1),
     0.5px -0.5px 0 var(--r1), -0.5px 0.5px 0 var(--r1);
-  font-family: customF;
   margin: 0% 2% 0% 2%;
 }
 
@@ -53,14 +50,12 @@ a:hover {
     0 -2px 0 var(--r2), 1px 1px var(--r2), -1px -1px 0 var(--r2),
     1px -1px 0 var(--r2), -1px 1px 0 var(--r2);
   font-size: 42px;
-  font-family: customF;
   margin: 1% 2% 0% 2%;
   text-align: center;
 }
 
 #container>h4 {
   color: var(--b1);
-  font-family: customF;
   margin: 4% 2% 0% 2%;
   text-align: center;
 }
